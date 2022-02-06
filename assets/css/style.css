@@ -118,28 +118,12 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .section__htb {
-    padding-top: 104px;
-  }
-
-  .container-1440 {
-    padding: 0 40px;
-  }
-
   .right {
     margin-bottom: 91px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .section__htb {
-    padding-bottom: 60px;
-  }
-
-  .container-1440 {
-    padding: 0 24px;
-  }
-
   .right {
     width: 350px;
   }
