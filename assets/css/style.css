@@ -111,9 +111,35 @@ img {
   width: 295px;
 }
 
+.bgBlack {
+  background-color: #18171f;
+  border-radius: 16px;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+  background-color: #23212c;
+}
+
+.divisionLine {
+  background-color: #292831;
+  height: 1px;
+}
+
+.orangeLine {
+  background-color: #f28b03;
+  height: 1px;
+  width: 50px;
+}
+
 @media screen and (max-width: 991px) {
   .circle {
     width: 190px;
+  }
+
+  .right img:last-child {
+    width: 338px;
   }
 }
 
