@@ -41,6 +41,10 @@ img {
   z-index: 0;
 }
 
+.btnOrange a {
+  padding: 20px;
+}
+
 .btnOrange:before {
   content: "";
   background: linear-gradient(
@@ -154,3 +158,4 @@ img {
     width: 350px;
   }
 }
+
