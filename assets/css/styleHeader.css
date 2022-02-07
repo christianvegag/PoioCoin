@@ -1,15 +1,14 @@
 #navbarNavDropdown li > a {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
-  color: rgb(175, 46, 46);
-  font-weight: bold;
+  color: #fcf8f8;
   position: relative;
   z-index: 1;
   text-decoration: none;
 }
 
 .main-header.fixed-nav #navbarNavDropdown li > a {
-  color: #fff;
+  color: #fcf8f8;
   text-decoration: none;
 }
 
@@ -22,7 +21,7 @@
   content: "";
   width: calc(100% - 1px);
   height: 1px;
-  background: rgb(255, 71, 38);
+  background: #f28b03;
   bottom: -6px;
   left: 0;
 
@@ -46,6 +45,11 @@
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
   transform-origin: left center;
+}
+
+.nav-link:hover{
+    color:#f28b03 !important;
+    font-weight: bold;
 }
 
 .main-header.fixed-nav #navbarNavDropdown li > a::before {
@@ -80,6 +84,9 @@
 }
 .navbar-brand {
   color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 26px;
 }
 .main-header .navbar-brand img {
   max-width: 100px;
@@ -119,8 +126,9 @@
   .main-header .navbar-nav {
     margin-top: 70px;
   }
-
+}
   /* scroll*/
+
 .navbar {
   transition: all 0.4s;
 }
@@ -141,33 +149,33 @@
 
 /* Change navbar styling on scroll */
 .navbar.active {
-  background: #fff;
+  background: #1d1d1d;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-  color: #555;
+  color: #fff;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-  color: #555;
+  color: #f28b03 !important;
   text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
-  color: #555;
+  color: #fff;
 }
 
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
   .navbar {
-    background: #fff;
+    background: #1d1d1d;
   }
 
   .navbar .navbar-brand,
   .navbar .nav-link {
-    color: #555;
+    color: #fff;
   }
 }
 
