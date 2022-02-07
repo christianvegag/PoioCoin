@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(function () {
     $(window).on('scroll', function () {
         if ( $(window).scrollTop() > 10 ) {
@@ -7,3 +8,6 @@ $(function () {
         }
     });
 });
+=======
+
+>>>>>>> body_article
