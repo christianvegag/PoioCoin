@@ -1,3 +1,31 @@
-h1{
-    color: red;
+body {
+  background-color: #2b2a36;
+  text-align: center;
 }
+.h1 {
+  color: #ffffff;
+}
+.parrafoComun {
+  color: #ffffff;
+}
+.orange {
+  color: #ffa500;
+}
+.container-1 {
+  width: 100%;
+  max-width: 1536px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 48px;
+  padding-left: 48px;
+  margin-top: 400px; /*140px del div que lo contiene o div padre*/
+}
+.container-2 {
+    width: 100%;
+    max-width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 48px;
+    padding-left: 48px;
+    /* margin-top: 400px; 140px del div que lo contiene o div padre */
+  }
