@@ -182,3 +182,16 @@
 }
 
     /*header ends*/
+
+    /*DIVIDER*/
+    .nav-menu-divider {
+      width: 2px;
+      height: 50px;
+      margin: auto;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      background-color: hsla(0, 0%, 100%, 0.1);
+    }
+    
