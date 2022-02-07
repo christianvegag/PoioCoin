@@ -1,6 +1,8 @@
 body {
   background-color: #2b2a36;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .h1 {
   color: #ffffff;
@@ -11,21 +13,20 @@ body {
 .orange {
   color: #ffa500;
 }
-.container-1 {
+.container1 {
   width: 100%;
   max-width: 1536px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 48px;
   padding-left: 48px;
-  margin-top: 400px; /*140px del div que lo contiene o div padre*/
+  margin-top: 400px; /*140px del div que lo contiene o div padre. Lo pone abajo*/
 }
-.container-2 {
-    width: 100%;
-    max-width: 1536px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 48px;
-    padding-left: 48px;
-    /* margin-top: 400px; 140px del div que lo contiene o div padre */
-  }
+.container2 {
+  width: 100%;
+  max-width: 1536px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 48px;
+  padding-left: 48px;
+}
