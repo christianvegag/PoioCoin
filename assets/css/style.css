@@ -83,11 +83,9 @@ img {
 }
 
 .main-header {
-  position: fixed;
   top: 25px;
   left: 0;
   z-index: 99;
-  width: 100%;
   transition: all 0.4s ease;
 }
 
@@ -321,18 +319,8 @@ img {
 }
 
 .team-pets {
-  width: 100%;
   padding: 50px 0px;
   background: #2b2a36;
-}
-
-.team-pets h2 {
-  display: flex;
-  justify-content: center;
-  margin: 50px 0px;
-  font-size: 50px;
-  color: #9e579d;
-  font-weight: 300;
 }
 
 .content-cards {
