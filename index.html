@@ -54,27 +54,31 @@
         <div id="navbarNavDropdown" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link">Ecosistema</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Comprar</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Articulos</a>
+              <a href="#sectionMain" class="nav-link">Ecosistema</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Donacion</a>
+              <a href="#sectionAbout" class="nav-link">Donacion</a>
+            </li>
+            <li class="nav-item"><a href="#sectionHtb" class="nav-link">Comprar</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Comunidad</a>
+              <a href="#article" class="nav-link">Articulos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#sectionFooter" class="nav-link">Comunidad</a>
             </li>
             <li class="nav-menu-divider"></li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="blank"><i class="fa fa-google-plus-square"></i></a>
+              <a class="nav-link" href="  " target="blank"><i class="fa fa-facebook-square"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="blank"><i class="fa fa-twitter"></i></a>
+              <a class="nav-link" href="" target="blank"><i class="fa fa-instagram"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="blank"><i class="fa fa-facebook-square"></i></a>
+              <a class="nav-link" href="" target="blank"><i class="fa fa-whatsapp"></i></a>
             </li>
           </ul>
         </div>
@@ -82,7 +86,7 @@
     </nav>
   </header><!-- End HEADER -->
 
-  <section class="sectionMain">
+  <section class="sectionMain" id="sectionMain">
     <div class="container">
       <div class="mb-5 d-flex flex-column-reverse flex-md-row align-items-center w-100 justify-content-between">
         <div
@@ -111,7 +115,7 @@
   </section>
 
   <!--START - BODY START - BIBIANA-->
-  <section class="sectionAbout">
+  <section class="sectionAbout" id="sectionAbout">
     <div class="container d-flex justify-content-center flex-column align-items-center">
       <div class="">
         <h3 class="text-white fw-bold mb-4">
@@ -166,7 +170,7 @@
 
   <!--START - BODY ABOUT SERGIO-->
 
-  <section class="sectionHtb">
+  <section class="sectionHtb" id="sectionHtb">
     <div class="container">
       <div class="mb-5 d-flex flex-column-reverse flex-md-row align-items-center w-100 justify-content-between">
         <div
@@ -297,7 +301,7 @@
   <!--END - BODY ABOUT SERGIO-->
 
   <!--START - BODY ART - RONY-->
-  <section class="acerca-de">
+  <section class="acerca-de" id="about">
 
     <div class="left">
       <div class="info">
@@ -336,7 +340,7 @@
 
   </section>
 
-  <section class="team-pets">
+  <section class="team-pets" id="article">
     <h2 class="mt-5 mb-4 text-white fs-1 lh-1 fw-bold">ARTICULOS</h2>
     <div class="content-cards">
       <div class="card">
@@ -384,7 +388,7 @@
   <!--END - BODY ART - RONY-->
 
   <!--START - FOOTER - LESLY-->
-  <section class="sectionFooter">
+  <section class="sectionFooter" id="sectionFooter">
     <div class="container1 card-footer d-flex justify-content-center flex-column align-items-center">
       <div class="h1">Comunidad</div>
       <p class="parrafoComun">
@@ -406,26 +410,89 @@
             para que no te pierdasde ningún movimiento.
           </p>
         </div><!-- END container3 -->
-        <div
-          class="socialMedia d-flex flex-wrap justify-content-center my-5">
-          <a href="#" class="text-center">
-            <img src="./assets/img/instagram.svg" alt="">
-            <div>Instagram</div>
-          </a><!-- END instagram -->
-          <a href="#">
-            <img src="./assets/img/ico-dis.svg" alt="">
-            <div>Discord</div>
-          </a><!-- END discord -->
 
-        </div><!-- END socialMedia -->
 
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                class="fa fa-facebook-square"></i></a>
+
+            <!-- WhatsApp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-whatsapp"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                class="fa fa-instagram"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-google"></i></a>
+
+          </section>
+          <!-- Section: Social media -->
+        </div>
+
+        <section class="container1 p-4">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Registrate para mayor información</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example29" class="form-control" />
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Suscribirse
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+        </section>
 
       </div><!-- END container2 -->
-
     </div>
     <!-- END container1 -->
-
   </section>
+
+  <div class="redes-flotantes">
+    <div class="separator">
+      <a href="#" class="icono-redes" target="_blank">
+        <img data-original-height="59" data-original-width="59"
+          src="https://1.bp.blogspot.com/-q3Dot9N2qac/XOQgr9etVpI/AAAAAAABT1M/6V4Bqaqr-6UQcl9Fy2_CaVgex0N_OYuQgCLcBGAs/s1600/whatsapp%2Bicono.png" /></a>
+    </div>
+    <div class="separator">
+      <a href="#" class="icono-redes" target="_blank">
+        <img data-original-height="59" data-original-width="59"
+          src="https://3.bp.blogspot.com/-SK4W7Kmjoh8/XOQj5wjwERI/AAAAAAABT1g/2i3wxgGTwdU8v67F1rMOAe3ooWu9f2fEACLcBGAs/s1600/facebook%2Bmessenger%2Bicono.png" /></a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3">
+   <h6> Copyright © 2022 Todos los derechos reservados por <span class="orange">Colpe Dev.</span>  </h6>
+  </div>
+
   <!--END - FOOTER - LESLY-->
 
   <!-- Bootstrap -->
