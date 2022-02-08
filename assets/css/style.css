@@ -313,6 +313,46 @@ img {
   background-color: #1c1b24;
 }
 
+.parrafoComun {
+  color: #ffffff;
+}
+
+.orange {
+  color: #ffa500;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 1536px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 1536px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+.parrafoSocial {
+  font-size: smaller;
+  color: #ffffff;
+}
+
+.socialMedia {
+  max-width: 500px;
+}
+
+.socialMedia img {
+  width: 60px;
+  height: 60px;
+}
+
 @media screen and (max-width: 991px) {
   /* Header */
   .collapse.in {
